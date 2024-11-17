@@ -1,0 +1,32 @@
+.photo-sale-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.photo-sale-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 300px;
+  text-align: center;
+}
+
+.photo-sale-item img {
+  width: min-content;
+  height: min-content;
+}
+
+.photo-sale-item button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.photo-sale-item button:hover {
+  background-color: #0056b3;
+}

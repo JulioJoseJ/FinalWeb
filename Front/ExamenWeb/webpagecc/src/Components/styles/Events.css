@@ -1,0 +1,28 @@
+.EventMain{
+  text-align: center;
+  flex-direction: 20px;
+  gap: 20px;
+}
+
+.EventMain h1{
+  display:flex;
+  color:blueviolet;
+  font-weight: 500;
+  text-align: start;
+  padding: 50px;
+}
+
+.EventList{
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  gap: 60px;
+  text-align: end;
+  margin: 50px;
+  cursor: pointer;
+  background-color: thistle;
+}
+
+.EventDisplay{
+  margin:30px;
+}
